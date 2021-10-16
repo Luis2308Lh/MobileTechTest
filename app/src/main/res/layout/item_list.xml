@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TVCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/TVActiveCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVCountryName"
+        android:layout_marginLeft="20dp"
+        android:text="Active Cases:"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/TVDeath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVActiveCases"
+        android:layout_marginLeft="20dp"
+        android:text="Death:"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/TVDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVDeath"
+        android:layout_marginLeft="20dp"
+        android:text="Last Update:"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/TVActiveCasesHab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVDate"
+        android:layout_marginLeft="20dp"
+        android:text="Active Case for 100k:"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/TVDeathHab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVActiveCasesHab"
+        android:layout_marginLeft="20dp"
+        android:text="Death for 100k: "
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/CheckText"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to chard"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        />
+    <CheckBox
+        android:id="@+id/CBCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/CheckText"/>
+    
+</RelativeLayout>

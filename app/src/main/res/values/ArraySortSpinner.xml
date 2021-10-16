@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>Choose an option</item>
+        <item>Active Cases</item>
+        <item>Deaths</item>
+        <item>Active Cases for 100k</item>
+        <item>Death for 100k</item>
+    </string-array>
+</resources>
